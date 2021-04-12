@@ -11,9 +11,22 @@
     <h2><p>Desarrollo en Blockchain</p></h2>
     <img type="image"  width="300" height=200    src="https://gateway.pinata.cloud/ipfs/QmTyP5B67MGVZPtPYoRwkRmfFLuG3bXrvGTKwzDMp5LqVe" media="screen" img>
     <div>
-        https://web-chat.global.assistant.watson.cloud.ibm.com/preview.html?region=eu-gb&integrationID=9ecd74c3-9782-4ff4-a055-876e7f05abae&serviceInstanceID=f9ee1bd9-7cab-46f8-9cec-0bb038826116
 
-     </div>>   
+     </div>  
+     <script>
+        window.watsonAssistantChatOptions = {
+            integrationID: "1e4fefe8-6364-4db1-8b5a-fdd2125a1602", // The ID of this integration.
+            region: "eu-gb", // The region your integration is hosted in.
+            serviceInstanceID: "f9ee1bd9-7cab-46f8-9cec-0bb038826116", // The ID of your service instance.
+            onLoad: function(instance) { instance.render(); }
+          };
+        setTimeout(function(){
+          const t=document.createElement('script');
+          t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+          document.head.appendChild(t);
+        });
+      </script>
+
     <div>
 
     <footer >
